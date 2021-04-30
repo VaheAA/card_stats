@@ -40,3 +40,39 @@ and (orientation: portrait) {
      }
 
   }
+
+  @media screen and (max-width: 768px) {
+
+    main {
+        width: 50rem;
+        max-width: 100%;
+    }
+
+    .card {
+      flex-direction: column-reverse;
+      text-align: center;
+      margin: 10px 20px 10px 20px;
+      border-radius: 10px;
+    }
+
+     .stats {
+         flex-direction: column;
+     }
+
+    .right {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    } 
+     
+    .right > img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+    }
+
+     .stats_p {
+         display: flex;
+         flex-direction: column;
+     }
+
+  }
